@@ -1,14 +1,14 @@
-# Timi and Olu's Shell
+# Simple Shell by Timilehin Olowookere and Olumide Odedeyi.
 
 ![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
 
 ### Description
 
-Josef and Tu's Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for Holberton School.
+Timilehin Olowookere and Olumide Odedeyi Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for ALX Africa Software Engineering.
 
 ### Installation
 
-Clone this repository into your working directory. For best results, files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -Wno-format.
+Clone this repository into your working directory. For best results, files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -std=gnu89
 
 ### Usage
 
@@ -41,66 +41,7 @@ Our shell has support for the following built-in commands:
 | cd [dir]            | Change the directory.                                                                     |
 | help [built-in]     | Read documentation for a built-in.                                                        |
 
-The following built-in commands may be supported in future versions:
-
-| Command | Definition                     |
-| ------- | ------------------------------ |
-| alias   | Set an Alias.                  |
-| history | View the history of the shell. |
-
-#### Outside Programs
-
-Our shell can run outside programs by typing their absolute paths (/bin/ls) or the executable name (ls), IF their directory is included in the PATH.
-
-### Examples
-
-```sh
-$ ls -l
-total 8
-drwxrwxr-x 1 vagrant vagrant Apr 2 13:23 directory_1
-drwxrwxr-x 2 vagrant vagrant Apr 2 20:30 directory_2
-```
-
-```sh
-$ /bin/pwd
-/home/vagrant/shell
-```
-
-```sh
-$ hello world
-./hsh: 1: hello: not found
-```
-
-```sh
-$ help env
-env: env
-	Print the environment.
-```
-
-### Included Files
-
-- main.c - functions for calling the shell and initializing the shell struct
-- shell.c - functions for running the basic shell logic
-- shell_helpers.c - functions for helping the shell run
-- split_string.c - functions for splitting string from the user
-- string_helpers1.c - functions for manipulating strings
-- string_helpers2.c - functions for manipulating strings
-- built_ins.c - functions for built-ins
-- built_in_helpers.c - functions for helping the built-in functions
-- help.c - functions for the help built-in
-- help2.c - functions for the help built-in
-- cd.c - functions for the cd built-in
-- cd2.c - functions for the cd built-in
-- \_getenv.c - functions for getting elements from the environment
-- env.c - functions for the env, setenv, and unsetenv built-ins
-- llfuncs1.c - linked list functions
-- llfuncs2.c - linked list functions
-- expansions.c - functions for dealing with the $? and $\$ expansions
-- check_path.c - functions for checking the path of an executable
-- error_handler.c - functions for dealing with errors
-- free.c - functions for freeing allocated memory
-- main.h - header file
 
 ### Credits
 
-All code written by [Timi Olowookere](https://github.com/bigboytimi) and [Olu Odedeyi](https://github.com/Quemmies3).
+All code written by [Timilehin Olowookere]([https://github.com/bigboytimi]) and [Olumide Odedeyi]([https://github.com/Quemmies3]).
